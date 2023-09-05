@@ -13,54 +13,176 @@
 html, body {
   font-size: 16px;
   font-family: Lato;
-  /* overflow: ; */
-  display: flex;
+  /* display: flex; */
   width: 100vw;
   height: 100vh;
   /* font-weight: 700; */
   background-color: #ff8c42;
 }
 
-.home {
+html::-webkit-scrollbar {
+    display: none;
+}
 
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.home-div {
+  width: 100vw;
+  height: 100vh; 
+}
+
+.home {
+  width: 100vw;
+  height: 72vh;
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.background-img-home {
+  opacity: 0.07;
+  width: 100vw;
+  height: 72vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.home-name-div {
+  width: 42%;
+  height: 25%;
+  margin: 4% 6.5%;
+  z-index: 2;
+  position: relative;
 }
 
 .home-name {
-
+  width: 135%;
+  text-align: center;
+  font-size: 8.4rem;
+  color: #ffffff;
+  background-color: #5b7c99;
+  border: solid 0.5rem #ffffff;
+  border-radius: 0.5rem;
+  position: relative;
 }
 
 .home-img {
-  border: solid 0.5rem #cfe8ef;
   border-radius: 0.5rem;
-  padding: 0rem;
-  
+  padding: 5% 0% 0% 0%;
+  width: 45%;
+  height: 10%;
+  position: relative;
 }
-.home-img img{
+
+.home-img img {
+  border: solid 1rem #cfe8ef;
   border-radius: 0.5rem;
   margin: 0rem;
   padding: 0rem;
+  width: 70%;
+  position: relative;
 }
 
-.home-info{
-
+.home-info {
+  width: 55%;
+  height: 25%;
+  position: relative;
+  margin: 0rem 6.5%;
 }
 
-.home-info-subtext{
-
+.home-info-subtext {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
 }
 
 .home-info-subtext-text {
-
+  font-size: 2rem;
+  padding: 0rem 3rem 0rem 0rem;
+  position: relative;
 }
 
 .home-info-maintext {
-
+  font-size: 5rem;
+  position: relative;
 }
 
-.home-menu{
+.home-menu {
+  height: 28vh;
+  background-color: #5b7c99;
+  padding: 5% 0rem 0rem 6.5%;
+}
 
+.home-menu-div {
+  width: 45%;
+  height: 35%;
+  background-color: #cfe8ef;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.home-menu-div a {
+  text-decoration: none;
+  color: #000000;
 }
 
 .home-menu-item {
+  padding: 1rem;
+  font-size: 2.25rem;
+}
 
+.home-menu-spacer {
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.AboutMe {
+  height: 100vh;
+  width: 100vw;
+  background-color: #cfe8ef;
+}
+
+.background-img-AboutMe {
+  opacity: 0.07;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
+.AboutMe-title-div {
+  position: relative;
+  width: 40%;
+  height: 15%;
+  padding: 3rem 0rem 0rem 0rem;
+}
+
+.AboutMe-title {
+  color: #ffffff;
+  background-color: #5b7c99;
+  border-radius: 0.5rem;
+  padding: 1rem; 
+  text-align: center;
+  font-size: 5rem;
+  width: 20%;
+  height: 7rem;
+  margin: auto;
+}
+
+.AboutMe-bio {
+  position: relative;
+}
+
+.AboutMe-loves {
+  position: relative;
+}
+
+.AboutMe-haves {
+  position: relative;
 }
