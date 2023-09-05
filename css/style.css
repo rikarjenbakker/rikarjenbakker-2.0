@@ -158,31 +158,229 @@ html {
 
 .AboutMe-title-div {
   position: relative;
-  width: 40%;
-  height: 15%;
-  padding: 3rem 0rem 0rem 0rem;
+  width: 100vw;
+  height: 17vh;
+  padding: 6rem 0rem 0rem 12rem;
 }
 
 .AboutMe-title {
   color: #ffffff;
   background-color: #5b7c99;
   border-radius: 0.5rem;
-  padding: 1rem; 
   text-align: center;
   font-size: 5rem;
-  width: 20%;
-  height: 7rem;
-  margin: auto;
+  width: 25%;
+  height: 100%;
+}
+
+.AboutMe-title p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.AboutMe-div {
+  display: flex;
+  height: 83vh;
+  width: 100vw;
 }
 
 .AboutMe-bio {
   position: relative;
+  width: 45%;
+  height: 25%;
+  background-color: #ff8c42;
+  border-radius: 0.5rem;
+  font-size: 2.5rem;
+  color: #000000;
+  text-align: left;
+  order: 2;
+  top: 15%; 
+  left: 5%;
+  padding: 2rem 1rem;
 }
 
 .AboutMe-loves {
   position: relative;
+  top: 42.5%;
+  left: 4.5%;
+  width: 17.5%;
+  height: 25%;
+  background-color: #ff8c42;
+  color: #000000;
+  border-radius: 0.5rem;
+  text-align: left;
+  font-size: 2rem;
+  padding: 1rem 2rem; 
 }
 
 .AboutMe-haves {
   position: relative;
+  top: 60%;
+  width: 20%;
+  height: 22%;
+  background-color: #5b7c99;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  text-align: left;
+  font-size: 2rem;
+  z-index: 2;
+  padding: 1rem 2rem; 
+}
+
+.MyWork {
+  width: 100vw;
+  height: 100vh;
+  background-color: #5b7c99;
+}
+
+.background-img-MyWork {
+  opacity: 0.07;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
+.MyWork-title-div {
+  position: relative;
+  width: 100vw;
+  height: 17vh;
+  padding: 6rem 0rem 0rem 12rem;
+}
+
+.MyWork-title {
+  background-color: #cfe8ef;
+  color: #000000;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 5rem;
+  width: 25%;
+  height: 100%;
+}
+
+.MyWork-title p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.MyWork-div {
+  display: flex;
+  width: 100vw;
+  height: 83vh;
+  padding: 5rem;
+}
+
+.MyWork-text {
+  background-color: #cfe8ef;
+  color: #000000;
+  position: relative;
+  top: 50%;
+  left: 10%;
+  width: 22.5%;
+  height: 25%;
+  border-radius: 0.5rem;
+  text-align: left;
+  font-size: 2.5rem;
+  z-index: 2;
+  padding: 1rem 2rem; 
+  order: 0;
+}
+
+.MyWork-text p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.MyWork-links {
+  background-color: #ff8c42;
+  color: #000000;
+  position: relative;
+  top: 20%;
+  left: 25%;
+  width: max-content;
+  height: min-content;
+  border-radius: 0.5rem;
+  text-align: left;
+  font-size: 2.5rem;
+  z-index: 2;
+  padding: 1rem 2rem; 
+  line-height: 5rem;
+}
+
+.MyWork-links a {
+  text-decoration: underline;
+  color: #000000;
+}
+
+.Contact {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ff8c42;
+}
+
+.background-img-Contact {
+  opacity: 0.07;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
+.Contact-title-div {
+  position: relative;
+  width: 100vw;
+  height: 17vh;
+  padding: 6rem 0rem 0rem 12rem;
+}
+
+.Contact-title {
+  background-color: #5b7c99;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 5rem;
+  width: 25%;
+  height: 100%;
+}
+
+.Contact-title p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.Contact-text {
+  font-size: 3rem;
+  width: 25%;
+  height: auto;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  background-color: #5b7c99;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  top: 35%;
+  left: 25%;
+}
+
+.Contact-links {
+  width: 25%;
+  height: auto;
+  border-radius: 1rem;
+  background-color: #cfe8ef;
+  padding: 1rem;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  top: 33.5%;
+  left: 47.5%;
+  border: solid 0.25rem #ff8c42;
+}
+
+.Contact-links a img {
+  width: 6rem;
 }
