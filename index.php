@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rik Arjen Bakker</title>
+<<<<<<< HEAD
     <link rel="icon" type="image/x-icon" href="img\logo.png">
+=======
+
+>>>>>>> 5bcb9b8403695153253d2e76eb0bfeac489d96b5
     <link rel="stylesheet" href="css/style.css" >
   </head>
   <body>
@@ -40,6 +44,7 @@
       </div>
       <div class="home-menu">
         <div class="home-menu-div">
+<<<<<<< HEAD
           <a href="#AboutMe">
             <p class="home-menu-item">
             About Me
@@ -60,12 +65,38 @@
             <p class="home-menu-item">
               Contact
             </p>
+=======
+          <a href="">
+            <div class="home-menu-item">
+            About Me
+            </div>
+          </a>
+          <div class="home-menu-spacer">
+            |
+          </div>
+          <a href="">
+            <div class="home-menu-item">
+              My Work
+            </div>
+          </a>
+          <div class="home-menu-spacer">
+            |
+          </div>
+          <a href="">
+            <div class="home-menu-item">
+              Contact
+            </div>
+>>>>>>> 5bcb9b8403695153253d2e76eb0bfeac489d96b5
           </a>
         </div>
       </div>
     </div>
 
+<<<<<<< HEAD
     <div id="AboutMe" class="AboutMe">
+=======
+    <div class="AboutMe">
+>>>>>>> 5bcb9b8403695153253d2e76eb0bfeac489d96b5
       <img class="background-img-AboutMe" src="img\paper-3338041.png">
       <div class="AboutMe-title-div">
         <div class="AboutMe-title">
@@ -94,7 +125,11 @@
       </div>
     </div>
 
+<<<<<<< HEAD
     <div id="MyWork" class="MyWork">
+=======
+    <div class="MyWork">
+>>>>>>> 5bcb9b8403695153253d2e76eb0bfeac489d96b5
       <img class="background-img-MyWork" src="img\stone-brick-background.jpg">
       <div class="MyWork-title-div">
         <div class="MyWork-title">
@@ -110,15 +145,26 @@
           </p>
         </div>  
         <div class="MyWork-links">
+<<<<<<< HEAD
           <a href="includes/LoFlow-master">- Team LoFlow Website</a><br>
           <a href="includes/BaantjerendeCock">- Webshop (Schoolproject)</a><br>
           <a href="index.php">- My Portfolio Website</a><br>
           <a href="https://github.com/rikarjenbakker">- My GitHub</a><br>
+=======
+          <a href="">- Team LoFlow Website</a><br>
+          <a href="">- Website (Schoolproject)</a><br>
+          <a href="">- My Portfolio Website</a><br>
+          <a href="">- My GitHub</a><br>
+>>>>>>> 5bcb9b8403695153253d2e76eb0bfeac489d96b5
         </div>
       </div>
     </div>
 
+<<<<<<< HEAD
     <div id="Contact" class="Contact">
+=======
+    <div class="Contact">
+>>>>>>> 5bcb9b8403695153253d2e76eb0bfeac489d96b5
       <img class="background-img-Contact" src="img\stone-brick-background.jpg">
       <div class="Contact-title-div">
         <div class="Contact-title">
