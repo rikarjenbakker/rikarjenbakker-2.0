@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rik Arjen Bakker</title>
-
+    <link rel="icon" type="image/x-icon" href="img\logo.png">
     <link rel="stylesheet" href="css/style.css" >
   </head>
   <body>
@@ -40,32 +40,32 @@
       </div>
       <div class="home-menu">
         <div class="home-menu-div">
-          <a href="">
-            <div class="home-menu-item">
+          <a href="#AboutMe">
+            <p class="home-menu-item">
             About Me
-            </div>
+            </p>
           </a>
-          <div class="home-menu-spacer">
+          <p class="home-menu-spacer">
             |
-          </div>
-          <a href="">
-            <div class="home-menu-item">
+          </p>
+          <a href="#MyWork">
+            <p class="home-menu-item">
               My Work
-            </div>
+            </p>
           </a>
-          <div class="home-menu-spacer">
+          <p class="home-menu-spacer">
             |
-          </div>
-          <a href="">
-            <div class="home-menu-item">
+          </p>
+          <a href="#Contact">
+            <p class="home-menu-item">
               Contact
-            </div>
+            </p>
           </a>
         </div>
       </div>
     </div>
 
-    <div class="AboutMe">
+    <div id="AboutMe" class="AboutMe">
       <img class="background-img-AboutMe" src="img\paper-3338041.png">
       <div class="AboutMe-title-div">
         <div class="AboutMe-title">
@@ -94,7 +94,7 @@
       </div>
     </div>
 
-    <div class="MyWork">
+    <div id="MyWork" class="MyWork">
       <img class="background-img-MyWork" src="img\stone-brick-background.jpg">
       <div class="MyWork-title-div">
         <div class="MyWork-title">
@@ -110,15 +110,15 @@
           </p>
         </div>  
         <div class="MyWork-links">
-          <a href="">- Team LoFlow Website</a><br>
-          <a href="">- Website (Schoolproject)</a><br>
-          <a href="">- My Portfolio Website</a><br>
-          <a href="">- My GitHub</a><br>
+          <a href="includes/LoFlow-master">- Team LoFlow Website</a><br>
+          <a href="includes/BaantjerendeCock">- Webshop (Schoolproject)</a><br>
+          <a href="index.php">- My Portfolio Website</a><br>
+          <a href="https://github.com/rikarjenbakker">- My GitHub</a><br>
         </div>
       </div>
     </div>
 
-    <div class="Contact">
+    <div id="Contact" class="Contact">
       <img class="background-img-Contact" src="img\stone-brick-background.jpg">
       <div class="Contact-title-div">
         <div class="Contact-title">
