@@ -1,0 +1,13 @@
+rikarjenbakker.nl
+
+
+
+		-tussenstukjes menu centreren
+		-icoontjes toevoegen aan kopjes
+		-meer padding geven aan text, in ieder geval about me
+		-achtergrond about me aanpassen, rode lijn weg
+
+
+
+-icoontjes aan linkjes geven My Work?
+-andere textuur aan achtergrond geven?

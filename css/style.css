@@ -131,6 +131,7 @@
   .home-menu-div a {
     text-decoration: none;
     color: #000000;
+    display: flex;
   }
 
   .home-menu-div a p {
@@ -140,20 +141,44 @@
   }
 
   .home-menu-div p {
+    width: 100%;  
+    height: min-content;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    display: flex;
+    justify-content: space-evenly;
   }
 
   .home-menu-item {
     padding: 1rem;
     font-size: 2.25rem;
+    justify-self: center;
+    position: relative;
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    top: 50%;
+    transform: translateY(-50%);
+    height: min-content;
+  }
+
+  .home-menu-item-img {
+    padding: 1rem 1rem 1rem 0rem;
+    width: 4rem;
+    align-self: center;
   }
 
   .home-menu-spacer {
     padding: 1rem;
     font-size: 2rem;
     font-weight: 500;
+  }
+
+  .home-menu-spacer p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
   .AboutMe {
@@ -179,18 +204,30 @@
 
   .AboutMe-title {
     color: #ffffff;
+    padding: 0rem;
     background-color: #5b7c99;
     border-radius: 0.5rem;
     text-align: center;
     font-size: 4rem;
     width: 25%;
     height: 100%;
+    display: flex;
   }
 
   .AboutMe-title p {
+    width: 100%;  
+    height: min-content;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .AboutMe-title-img {
+    width: 4rem;
+    /* margin-left: -5rem; */
+    align-self: center;
   }
 
   .AboutMe-div {
@@ -211,7 +248,7 @@
     order: 2;
     top: 15%; 
     left: 5%;
-    padding: 2rem 1rem;
+    padding: 3rem 1.5rem;
   }
 
   .AboutMe-loves {
@@ -225,12 +262,13 @@
     border-radius: 0.5rem;
     text-align: left;
     font-size: 2rem;
-    padding: 1rem 2rem; 
+    padding: 1.5rem 3rem;
   }
 
   .AboutMe-haves {
     position: relative;
     top: 60%;
+    left: 1%;
     width: 20%;
     height: max-content;
     background-color: #5b7c99;
@@ -239,7 +277,7 @@
     text-align: left;
     font-size: 2rem;
     z-index: 2;
-    padding: 1rem 2rem; 
+    padding: 1.5rem 3rem;
   }
 
   .MyWork {
@@ -264,6 +302,7 @@
   }
 
   .MyWork-title {
+    padding: 3rem;
     background-color: #cfe8ef;
     color: #000000;
     border-radius: 0.5rem;
@@ -271,12 +310,23 @@
     font-size: 4rem;
     width: 25%;
     height: 100%;
+    display: flex;
   }
 
   .MyWork-title p {
+    width: 100%;  
+    height: min-content;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .MyWork-title-img {
+    width: 4rem;
+    /* margin-left: -5rem; */
+    align-self: center;
   }
 
   .MyWork-div {
@@ -298,7 +348,7 @@
     text-align: left;
     font-size: 2.5rem;
     z-index: 2;
-    padding: 1rem 2rem; 
+    padding: 1.5rem 3rem;
     order: 0;
   }
 
@@ -320,7 +370,7 @@
     text-align: left;
     font-size: 2.5rem;
     z-index: 2;
-    padding: 1rem 2rem; 
+    padding: 1.5rem 3rem;
     line-height: 5rem;
   }
 
@@ -351,6 +401,7 @@
   }
 
   .Contact-title {
+    padding: 3rem;
     background-color: #5b7c99;
     color: #ffffff;
     border-radius: 0.5rem;
@@ -358,19 +409,30 @@
     font-size: 4rem;
     width: 25%;
     height: 100%;
+    display: flex;
   }
 
   .Contact-title p {
+    width: 100%;  
+    height: min-content;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .Contact-title-img {
+    width: 4rem;
+    /* margin-left: -5rem; */
+    align-self: center;
   }
 
   .Contact-text {
     font-size: 3rem;
     width: 25%;
     height: max-content;
-    padding: 1rem 2rem;
+    padding: 1.5rem 3rem;
     border-radius: 0.5rem;
     background-color: #5b7c99;
     color: #ffffff;
@@ -385,7 +447,7 @@
     height: max-content;
     border-radius: 1rem;
     background-color: #cfe8ef;
-    padding: 1rem;
+    padding: 2rem;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -403,13 +465,13 @@
 
   @media only screen and (max-width: 2750px){
     html {
-      font-size: 19px;
+      font-size: 17px;
     }
   }
 
   @media only screen and (max-width: 2500px){
     html {
-      font-size: 17px;
+      font-size: 16px;
     }
   }
 

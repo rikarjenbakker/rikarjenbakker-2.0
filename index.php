@@ -42,24 +42,31 @@
         <div class="home-menu-div">
           <a href="#AboutMe">
             <p class="home-menu-item">
-            About Me
+              About Me
             </p>
+            <img class="home-menu-item-img" src="img\icons8-person-30.png" alt="">
           </a>
-          <p class="home-menu-spacer">
-            |
-          </p>
+          <div class="home-menu-spacer">
+            <p>
+              I
+            </p>
+          </div>
           <a href="#MyWork">
             <p class="home-menu-item">
               My Work
             </p>
+            <img class="home-menu-item-img" src="img\icons8-notepad-30.png" alt="">
           </a>
-          <p class="home-menu-spacer">
-            |
-          </p>
+          <div class="home-menu-spacer">
+            <p>
+              I
+            </p>
+          </div>
           <a href="#Contact">
             <p class="home-menu-item">
               Contact
             </p>
+            <img class="home-menu-item-img" src="img/icons8-mail-48.png" alt="">
           </a>
         </div>
       </div>
@@ -71,6 +78,7 @@
         <div class="AboutMe-title">
           <p>
             About Me
+            <img class="AboutMe-title-img" src="img\icons8-person-30.png" alt="">
           </p>
         </div>
       </div>
@@ -79,7 +87,7 @@
           I am a 2nd year software development student at Alfa-College based in Groningen, the  Netherlands. I am interested in designing and coding websites and applications and love helping people out.
         </div>
         <div class="AboutMe-loves">
-         I love <br>
+         I like <br>
           - Helping people <br>
           - Being challenged <br>
           - Good conversation <br>
@@ -100,6 +108,7 @@
         <div class="MyWork-title">
           <p>
             My Work
+            <img class="MyWork-title-img"  src="img\icons8-notepad-30.png" alt="">
           </p>
         </div>
       </div>
@@ -124,6 +133,7 @@
         <div class="Contact-title">
           <p>
             Contact
+            <img class="Contact-title-img" src="img\icons8-mail-48.png" alt="">
           </p>
         </div>
       </div>
